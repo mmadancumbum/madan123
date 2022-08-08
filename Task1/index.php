@@ -62,6 +62,7 @@
 		<th>Marketing Total</th>
 	</tr>
 	<?php
+	
 	$week_val = "week".$week_no;
 	
 	foreach($market_team_emp as $emp1)
