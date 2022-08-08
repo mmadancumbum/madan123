@@ -23,8 +23,7 @@
   ?>
 			<script>alert('Select Week between 31 and 33');</script>
   <?php
-        }
-		
+        }		
 		$xmlfile = file_get_contents('data.xml');
 		$new = simplexml_load_string($xmlfile);
 		$con = json_encode($new);
